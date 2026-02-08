@@ -16,7 +16,7 @@ classifiers = [
   "Programming Language :: Python :: 3",
 ]
 readme = "README.md"
-requires-python = ">{{ cookiecutter.pyhon_version }}"
+requires-python = ">{{ cookiecutter.python_version }}"
 dependencies = [
     "numpy==2.4.2",
     "torch>=2.5.1",
