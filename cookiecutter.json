@@ -1,0 +1,9 @@
+{
+	"repo_name": "repo_name",
+	"project_name": "project_name",
+	"deps_manager": ["uv", "pip"],
+	"author_name": "Your name (or your organization/company/team)",
+	"description": "A short description of the project.",
+	"python_version": "3.12",
+	"cuda_device": ["cuda", "cpu", "mps"]
+}
