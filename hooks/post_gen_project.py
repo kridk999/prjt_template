@@ -50,7 +50,7 @@ if deps_manager == "uv":
         Path("pyproject_uv_cu124.toml").unlink()
         Path("pyproject_uv_noTorch.toml").unlink()
         Path("pyproject_uv_cpu.toml").rename("pyproject.toml")
-    elif torch_device == "cu124":
+    elif torch_device == "cuda":
         Path("pyproject_uv_cpu.toml").unlink()
         Path("pyproject_uv_noTorch.toml").unlink()
         Path("pyproject_uv_cu124.toml").rename("pyproject.toml")
@@ -67,7 +67,7 @@ elif deps_manager == "pip":
         Path("requirements_cu124.txt").unlink()
         Path("requirements_noTorch.txt").unlink()
         Path("requirements_cpu.txt").rename("requirements.txt")
-    elif torch_device == "cu124":
+    elif torch_device == "cuda":
         Path("requirements_cpu.txt").unlink()
         Path("requirements_noTorch.txt").unlink()
         Path("requirements_cu124.txt").rename("requirements.txt")
